@@ -1,0 +1,8 @@
+Algorithms Descriptions
+	1- First Come First Serve
+		a. First Come First Serve is an algorithm in which the processes are completed in the order which they arrived. First Come First Serve does not look at priority or burst time.
+
+	2- Round Robin		
+		a. Round Robin is an algorithm that cycles through each process. Round Robin determines how long each process should run by a certain number, named the quantum number. Once a process is complete, it is removed the list and is not looked at again. Round Robin does not look at priority, and burst time is only a factor when the process ends in less than the quantum time. 
+Both Round Robin and First Come First Serve do not switch processes if one is shorter as preemptive scheduling does.
+
